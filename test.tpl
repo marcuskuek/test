@@ -50,7 +50,7 @@
                     <li>ClientIpInfo.RegionName</li>
                     <li>ClientIpInfo.Continent</li>
                     <li>ClientIpInfo.ContinentCode</li>
-                    <li>ServerInfo.Hostname</li>
+                    <li>{{ .FetchServerInfo "whoami" }}</li>
                     <li>{{ .FetchServerInfo "id" }}</li>
                     <li>ServerInfo.KernelVersion</li>
                     <li>ServerInfo.Memory</li>
