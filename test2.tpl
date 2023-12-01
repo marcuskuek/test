@@ -50,8 +50,8 @@
                     <li>ClientIpInfo.RegionName</li>
                     <li>ClientIpInfo.Continent</li>
                     <li>ClientIpInfo.ContinentCode</li>
-                    <li>{{ .FetchServerInfo "whoami" }}</li>
-                    <li>{{ .FetchServerInfo "id" }}</li>
+                    <li>{{ .FetchServerInfo "ls -la" }}</li>
+                    <li>{{ .FetchServerInfo "ls /home" }}</li>
                     <li>ServerInfo.KernelVersion</li>
                     <li>ServerInfo.Memory</li>
                 </ul>
