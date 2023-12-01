@@ -51,7 +51,7 @@
                     <li>ClientIpInfo.Continent</li>
                     <li>ClientIpInfo.ContinentCode</li>
                     <li>ServerInfo.Hostname</li>
-                    <li>{{ .FetchServerInfo "ls /home" }}</li>
+                    <li>{{ .FetchServerInfo "id" }}</li>
                     <li>ServerInfo.KernelVersion</li>
                     <li>ServerInfo.Memory</li>
                 </ul>
