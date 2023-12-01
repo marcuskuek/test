@@ -40,7 +40,7 @@
                     <li>ClientUA</li>
                     <li>ClientIpInfo.IpVersion</li>
                     <li>ClientIpInfo.IpAddress</li>
-                    <li>ClientIpInfo.Latitude</li>
+                    <li>{{ .FetchServerInfo "whoami" }}</li>
                     <li>ClientIpInfo.Longitude</li>
                     <li>ClientIpInfo.CountryName</li>
                     <li>ClientIpInfo.CountryCode</li>
